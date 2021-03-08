@@ -1,0 +1,57 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>page6</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-list>
+  <ion-item>
+    <h1> inscription</h1>
+  </ion-item>
+  <ion-item>
+    <ion-input type="text" placeholder="Nom"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input type="text" placeholder="Login"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input type="password" placeholder="Password"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Sexe</ion-label>
+    <ion-radio-group value="sexe">
+      <ion-item>
+        <ion-label>Homme</ion-label>
+        <ion-radio value="homme"></ion-radio>
+        <ion-label>Homme</ion-label>
+        <ion-radio value="femme"></ion-radio>
+      </ion-item>
+    </ion-radio-group>
+  </ion-item>
+  <ion-item>
+    <ion-label>Département</ion-label>
+    <ion-select value="departement">
+      <ion-select-option value="GCR">
+        GCR
+      </ion-select-option>
+      <ion-select-option value="GCV">
+        GCV
+      </ion-select-option>
+      <ion-select-option value="GCP">
+        GCP
+      </ion-select-option>
+      <ion-select-option value="GEA">
+        GEA
+      </ion-select-option>
+      <ion-select-option value="GM">
+        GM
+      </ion-select-option>
+    </ion-select>
+  </ion-item>
+ <ion-button expand="full">INSCRIPTION</ion-button>
+</ion-list>
+</ion-content>
